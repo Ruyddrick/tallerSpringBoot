@@ -1,0 +1,8 @@
+management.endpoints.web.exposure.include: "*"
+
+saludo:
+   hello: "Hola desde entorno de desarrollo"
+   
+server.port: 8010
+
+spring.h2.console.enabled: true

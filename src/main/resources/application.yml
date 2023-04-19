@@ -1,0 +1,21 @@
+server.port: 8080
+
+saludo.pordefecto: "Sin entorno activado"
+   
+spring.profiles.active: 
+#-  "prod"
+-  "dev"
+
+spring:
+  datasource:
+    url: jdbc:h2:mem:mydb
+#    url: jdbc:h2:file:/data/users
+    username: desarrollo
+    password: 123
+    driverClassName: org.h2.Driver
+  jpa:
+    spring.jpa.database-platform: org.hibernate.dialect.H2Dialect
+    hibernate: 
+       ddl-auto: validate
+       
+    

@@ -1,0 +1,5 @@
+saludo:
+   hello: "Hola desde el entorno de producción"
+   
+spring.h2.console.enabled: false
+  
